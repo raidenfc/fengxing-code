@@ -1,0 +1,67 @@
+{
+  "code": 200,
+  "msg": "数据正常",
+  "data": {
+    "user": {
+      "nickname": "sepia",
+      "avatar": "/assets/images/avatar.jpg",
+      "bind_account_url": "/bind_account"
+    },
+    "order": {
+      "all": {
+        "name": "全部订单",
+        "count": 25,
+        "url": " route('order.list', ['t'=>'all']) "
+      },
+      "unpaid": {
+        "name": "待支付",
+        "count": 25,
+        "url": " route('order.list', ['t'=>'unpaid']) "
+      },
+      "unreceived": {
+        "name": "待收货",
+        "count": 0,
+        "url": " route('order.list', ['t'=>'unreceived']) "
+      },
+      "uncomment": {
+        "name": "待评价",
+        "count": 0,
+        "url": " route('order.list', ['t'=>'uncomment']) "
+      }
+    },
+    "fortune": {
+      "total": {
+        "name" :"余额",
+        "count": 120,
+        "url": ""
+      },
+      "coupon": {
+        "name":"优惠券",
+        "count": 2,
+        "url": ""
+      },
+      "points": {
+        "name":"积分",
+        "count": 2,
+        "url": ""
+      },
+      "commission": {
+        "name":"佣金",
+        "count": 12,
+        "url"  :""
+      }
+    },
+    "address": {
+      "default": {
+        "value": "XX学校xx寝室",
+        "url": "/"
+      }
+    },
+    "recent_view": {
+      "url": ""
+    },
+    "advice": {
+      "url": ""
+    }
+  }
+}

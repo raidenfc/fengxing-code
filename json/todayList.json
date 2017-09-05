@@ -1,0 +1,351 @@
+{
+  "code": 200,
+  "msg": "数据正常",
+  "data": {
+    "page": 1,
+    "per_page": 4,
+    "total": 3,
+    "data": [
+      {
+        "id": 1,
+        "name": "多效护肤魔法师去屑水",
+        "base_price": "245.00",
+        "origin_price": "345.00",
+        "area_id": 1,
+        "attribute": [
+          {
+            "id": 1,
+            "name": "容量",
+            "item": [
+              {
+                "id": 1,
+                "name": "15ml"
+              },
+              {
+                "id": 2,
+                "name": "20ml"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "香型",
+            "item": [
+              {
+                "id": 3,
+                "name": "薰衣草"
+              },
+              {
+                "id": 4,
+                "name": "玫瑰花"
+              }
+            ]
+          }
+        ],
+        "main_picture": "/uploads/2016/06/28/goods.jpg",
+        "sku": [
+          {
+            "id": 1,
+            "name": "1-3多效护肤魔法师去屑水去水保湿",
+            "market_price": "2218.00",
+            "mark": "1-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 2,
+            "name": "1-4多效护肤魔法师去油清爽保湿",
+            "market_price": "118.00",
+            "mark": "1-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 3,
+            "name": "2-3多效护肤魔法师去油清爽保湿",
+            "market_price": "418.00",
+            "mark": "2-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 4,
+            "name": "2-4多效护肤魔法师去油清爽保湿",
+            "market_price": "238.00",
+            "mark": "2-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          }
+        ],
+        "sum_store": "104"
+      },
+      {
+        "id": 1,
+        "name": "多效护肤魔法师去屑水",
+        "base_price": "245.00",
+        "origin_price": "345.00",
+        "area_id": 1,
+        "attribute": [
+          {
+            "id": 1,
+            "name": "容量",
+            "item": [
+              {
+                "id": 1,
+                "name": "15ml"
+              },
+              {
+                "id": 2,
+                "name": "20ml"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "香型",
+            "item": [
+              {
+                "id": 3,
+                "name": "薰衣草"
+              },
+              {
+                "id": 4,
+                "name": "玫瑰花"
+              }
+            ]
+          }
+        ],
+        "main_picture": "/uploads/2016/06/28/goods.jpg",
+        "sku": [
+          {
+            "id": 1,
+            "name": "1-3多效护肤魔法师去屑水去水保湿",
+            "market_price": "218.00",
+            "mark": "1-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 2,
+            "name": "1-4多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "1-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 3,
+            "name": "2-3多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "2-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 4,
+            "name": "2-4多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "2-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          }
+        ],
+        "sum_store": "104"
+      },
+      {
+        "id": 1,
+        "name": "多效护肤魔法师去屑水",
+        "base_price": "245.00",
+        "origin_price": "345.00",
+        "area_id": 1,
+        "attribute": [
+          {
+            "id": 1,
+            "name": "容量",
+            "item": [
+              {
+                "id": 1,
+                "name": "15ml"
+              },
+              {
+                "id": 2,
+                "name": "20ml"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "香型",
+            "item": [
+              {
+                "id": 3,
+                "name": "薰衣草"
+              },
+              {
+                "id": 4,
+                "name": "玫瑰花"
+              }
+            ]
+          }
+        ],
+        "main_picture": "/uploads/2016/06/28/goods.jpg",
+        "sku": [
+          {
+            "id": 1,
+            "name": "1-3多效护肤魔法师去屑水去水保湿",
+            "market_price": "218.00",
+            "mark": "1-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 2,
+            "name": "1-4多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "1-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 3,
+            "name": "2-3多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "2-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 4,
+            "name": "2-4多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "2-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          }
+        ],
+        "sum_store": "104"
+      },
+      {
+        "id": 1,
+        "name": "多效护肤魔法师去屑水",
+        "base_price": "245.00",
+        "origin_price": "345.00",
+        "area_id": 1,
+        "attribute": [
+          {
+            "id": 1,
+            "name": "容量",
+            "item": [
+              {
+                "id": 1,
+                "name": "15ml"
+              },
+              {
+                "id": 2,
+                "name": "20ml"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "香型",
+            "item": [
+              {
+                "id": 3,
+                "name": "薰衣草"
+              },
+              {
+                "id": 4,
+                "name": "玫瑰花"
+              }
+            ]
+          }
+        ],
+        "main_picture": "/uploads/2016/06/28/goods.jpg",
+        "sku": [
+          {
+            "id": 1,
+            "name": "1-3多效护肤魔法师去屑水去水保湿",
+            "market_price": "218.00",
+            "mark": "1-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 2,
+            "name": "1-4多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "1-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 3,
+            "name": "2-3多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "2-3",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          },
+          {
+            "id": 4,
+            "name": "2-4多效护肤魔法师去油清爽保湿",
+            "market_price": "218.00",
+            "mark": "2-4",
+            "main_picture": "/uploads/2016/06/28/goods.jpg",
+            "store": 26,
+            "visit_count": 0,
+            "like_count": 0,
+            "sale_count": 0
+          }
+        ],
+        "sum_store": "104"
+      }
+    ]
+  }
+}

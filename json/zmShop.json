@@ -1,0 +1,103 @@
+{
+  "code": 200,
+  "msg": "数据正常",
+  "data": {
+    "page": 2,
+    "data": [
+      [
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        }
+      ],
+      [
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        },
+        {
+          "id": 1,
+          "name": "多效护肤魔法师去屑水",
+          "area_id": 1,
+          "keyword": "商品关键词",
+          "url":"",
+          "main_picture": "/uploads/2016/06/28/goods.jpg",
+          "sum_store": "104"
+        }
+      ]
+    ]
+  }
+}

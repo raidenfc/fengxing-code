@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if(deviceWidth > 750){
+        deviceWidth = 750;
+    }
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+</script>
+</head>
+<body>
+
+<div class="acc-main">
+
+    <div class="title">登录关联的商城帐号</div>
+
+    <div class="input-inner">
+        <div class="input-style account">
+            <div class="icon"></div>
+            <input type="text" placeholder="手机号码/帐号/邮箱">
+        </div>
+        <div class="input-style password">
+            <div class="icon"></div>
+            <input type="text" placeholder="密码">
+        </div>
+    </div>
+
+    <div class="btn-inner">
+        <div class="btn-style login-btn">登&nbsp;&nbsp;录</div>
+        <div class="or"><span>or</span></div>
+        <div class="btn-style qq-login"><div class="icon-qq"></div>QQ登录</div>
+    </div>
+
+</div>
+
+</body>
+<script type="text/javascript" src="javascripts/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/touch.js"></script>
+<script type="text/javascript" src="javascripts/fxJs.js"></script>
+</html>
+

@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "焦点图1",
+      "url": "http://g.cn/1",
+      "code": "/uploads/img/focus1.jpg",
+      "sort": "1"
+    },
+    {
+      "id": 2,
+      "name": "焦点图2",
+      "url": "http://g.cn/2",
+      "code": "/uploads/img/focus2.jpg",
+      "sort": "2"
+    },
+    {
+      "id": 3,
+      "name": "焦点图3",
+      "url": "http://g.cn/3",
+      "code": "/uploads/img/focus3.jpg",
+      "sort": "3"
+    },
+    {
+      "id": 4,
+      "name": "焦点图4",
+      "url": "http://g.cn/4",
+      "code": "/uploads/img/focus4.jpg",
+      "sort": "4"
+    }
+  ]
+}

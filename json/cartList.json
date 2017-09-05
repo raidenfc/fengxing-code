@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "msg": "数据正常",
+  "data": [
+    {
+      "id": 29,
+      "user_id": 1,
+      "goods_id": 1,
+      "goods_num": 24,
+      "goods_price": 9.9,
+      "sku_id": 2124,
+      "selected": 0,
+      "cover": "/uploads/2016/06/28/goods.jpg",
+      "title": "1-3多效护肤魔法师去屑水去水保湿",
+      "attr": [
+        {
+          "id": "123",
+          "val": "20ml"
+        },
+        {
+          "id": "456",
+          "val": "清爽型"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "user_id": 1,
+      "goods_price": 100.87,
+      "goods_id": 1,
+      "sku_id": 1124,
+      "goods_num": 24,
+      "selected": 0,
+      "cover": "/uploads/2016/06/28/goods.jpg",
+      "title": "1-ewrwerwer",
+      "attr": [
+        {
+          "id": "123",
+          "val": "20ml"
+        },
+        {
+          "id": "456",
+          "val": "激情型"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "user_id": 1,
+      "goods_price": 100.5,
+      "goods_id": 1,
+      "sku_id": 1124,
+      "goods_num": 24,
+      "selected": 0,
+      "cover": "/uploads/2016/06/28/goods.jpg",
+      "title": "1-wwwwwwwwwwwwwwwwwwww",
+      "attr": [
+        {
+          "id": "123",
+          "val": "20ml"
+        },
+        {
+          "id": "456",
+          "val": "激情型"
+        }
+      ]
+    }
+  ]
+}

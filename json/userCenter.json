@@ -1,0 +1,61 @@
+{
+  "code": 200,
+  "msg": "数据正常",
+  "data": {
+    "user": {
+      "nickname": "sepia",
+      "avatar": "/assets/images/avatar.jpg",
+      "bind_account_url": "/bind_account"
+    },
+    "order": {
+      "total": {
+        "value": 10,
+        "url": ""
+      },
+      "await_paid": {
+        "value": 2,
+        "url": 2
+      },
+      "await_received": {
+        "value": 4,
+        "url": ""
+      },
+      "await_comment": {
+        "url": 2,
+        "value": 2
+      }
+    },
+    "fortune": {
+      "total": {
+        "value": 120,
+        "url": ""
+      },
+      "coupon": {
+        "value": 2,
+        "url": ""
+      },
+      "points": {
+        "value": 2,
+        "url": ""
+      },
+      "commission ": {
+        "value": 12
+      },
+      "commission": {
+        "url": ""
+      }
+    },
+    "address": {
+      "default": {
+        "value": "XX学校xx寝室",
+        "url": "/"
+      }
+    },
+    "recent_view": {
+      "url": ""
+    },
+    "advice": {
+      "url": ""
+    }
+  }
+}

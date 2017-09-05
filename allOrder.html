@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>待支付</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if(deviceWidth > 750){
+        deviceWidth = 750;
+    }
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+</script>
+</head>
+<body>
+
+<div class="order-main">
+
+    <div class="order-search">
+        <div class="search-input">
+            <div class="icon"></div>
+            <input type="text" placeholder="商品名称/订单编号/商品编号">
+        </div>
+    </div>
+
+    <div class="order-nav">
+        <ul>
+            <li class="all-order">全部订单</li>
+            <li class="not-paid select">待支付<span class="num">8</span></li>
+            <li class="not-goods">待收货</li>
+            <li class="not-evaluation">待评价</li>
+        </ul>
+    </div>
+
+    <div class="order-sm">
+
+        <div class="ty-sm">
+
+            <div class="items-cart-list">
+                <div class="items-cart-box">
+                    <div class="t">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <dl>
+                                <dt><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></dt>
+                                <dd>
+                                    <span class="price"><span class="yuan">￥</span>234</span>&nbsp;<span class="num">x1</span><span class="fitness">状态：<span>已签收</span></span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="b">
+                        <a class="commission-share" href="#">佣金分享</a>
+                        <a class="purchase" href="#">再次购买</a>
+                        <a class="evaluation" href="#">评价</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ty-sm select">
+
+            <div class="items-cart-list">
+                <div class="items-cart-box">
+                    <div class="t">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <dl>
+                                <dt><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></dt>
+                                <dd>
+                                    <span class="price"><span class="yuan">￥</span>234</span>&nbsp;<span class="num">x1</span><span class="fitness">状态：<span>已签收</span></span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="b">
+                        <a class="cancel-order" href="#">取消订单</a>
+                        <a class="pay-order" href="#">付款</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ty-sm">
+            <div class="items-cart-list">
+                <div class="items-cart-box">
+                    <div class="t">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <dl>
+                                <dt><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></dt>
+                                <dd>
+                                    <span class="price"><span class="yuan">￥</span>234</span>&nbsp;<span class="num">x1</span><span class="fitness">状态：<span>已签收</span></span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="b">
+                        <a class="logistics" href="#">查看物流</a>
+                        <a class="confirm-order" href="javascript:void(0);">确认收货</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ty-sm">
+            <div class="items-cart-list">
+                <div class="items-cart-box">
+                    <div class="t">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <dl>
+                                <dt><a href="#">商品名称商品名称商品名称商品名称商品名称商品名称</a></dt>
+                                <dd>
+                                    <span class="price"><span class="yuan">￥</span>234</span>&nbsp;<span class="num">x1</span><span class="fitness">状态：<span>已签收</span></span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="b">
+                        <a class="del-order" href="javascript:void(0);">删除订单</a>
+                        <a class="evaluation" href="#">评价</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="javascripts/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/touch.js"></script>
+<script type="text/javascript" src="javascripts/fxJs.js"></script>
+</html>
+

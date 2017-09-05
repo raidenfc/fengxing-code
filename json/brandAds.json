@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "page": 1,
+    "per_page": 10,
+    "total": 2,
+    "data": [
+      {
+        "id": 1,
+        "title": "专题标题1",
+        "topic_img": "http://himg2.huanqiu.com/attachment2010/2016/0630/12/15/20160630121549794.jpg",
+        "intro": "专题简介1",
+        "url": "/api/topic/1",
+        "create_at" : "2016/06/01 00:00:00"
+      },
+      {
+        "id": 1,
+        "title": "专题标题2",
+        "topic_img": "http://himg2.huanqiu.com/attachment2010/2016/0630/12/15/20160630121549794.jpg",
+        "intro": "专题简介2",
+        "url": "/api/topic/2",
+        "create_at" : "2016/06/01 00:00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品列表</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if(deviceWidth > 750){
+        deviceWidth = 750;
+    }
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+</script>
+</head>
+<body>
+
+<header>
+    <a href="/">
+        <div class="logo"></div>
+    </a>
+    <div class="search"><input type="text" placeholder="请输入商品名称"></div>
+    <a href="#">
+        <div class="icon-personal"></div>
+    </a>
+</header>
+
+<div class="index-main">
+
+    <div class="column-box">
+        <div class="title">
+            <div class="column-3"><s></s>今日推荐</div>
+        </div>
+
+        <div class="items-list">
+            <ul>
+                <li>
+                    <div class="items-box">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="items-text">商品名称</div>
+                        <div class="items-gm">
+                            <span class="price">￥234</span>
+                            <div class="buy-btn stock">缺货</div>
+                        </div>
+                        <div class="add-shopping-cart-btn"></div>
+                        <div class="qh">
+                            <div class="n"></div>
+                            <div class="stock-mask"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="items-box">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="items-text">商品名称</div>
+                        <div class="items-gm">
+                            <span class="price">￥234</span>
+                            <div class="buy-btn">购买</div>
+                        </div>
+                        <div class="add-shopping-cart-btn"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="items-box">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="items-text">商品名称</div>
+                        <div class="items-gm">
+                            <span class="price">￥234</span>
+                            <div class="buy-btn">购买</div>
+                        </div>
+                        <div class="add-shopping-cart-btn"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="items-box">
+                        <div class="items-pic">
+                            <a href="#">
+                                <img src="images/~5.jpg">
+                            </a>
+                        </div>
+                        <div class="items-text">商品名称</div>
+                        <div class="items-gm">
+                            <span class="price">￥234</span>
+                            <div class="buy-btn">购买</div>
+                        </div>
+                        <div class="add-shopping-cart-btn"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="site-bar">
+    <ul>
+        <li>
+            <a href="/">
+                <div class="bar-box icon-index select">
+                    <div class="bar-icon"></div>
+                    <cite>首页</cite>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="bar-box icon-hot">
+                    <div class="bar-icon"></div>
+                    <cite>热销</cite>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="bar-box icon-shopping-cart">
+                    <div class="bar-icon"></div>
+                    <cite>购物车</cite>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <div class="bar-box icon-order">
+                    <div class="bar-icon"></div>
+                    <cite>订单</cite>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="add-cart-inner">
+    <div class="inner">
+        <div class="items">
+            <div class="pic"><img src="images/~5.jpg"></div>
+            <div class="info">
+                <span class="title">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</span>
+                <span class="price"><span class="yuan">￥</span>56</span>
+            </div>
+        </div>
+
+        <div class="specs">
+            <dl class="sp-1">
+                <dt>规格</dt>
+                <dd>
+                    <div class="specs-tag select">15ml</div>
+                    <div class="specs-tag">25ml</div>
+                </dd>
+            </dl>
+            <dl class="sp-2">
+                <dt>类型</dt>
+                <dd>
+                    <div class="specs-tag">去屑</div>
+                    <div class="specs-tag">清爽</div>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="buy-num">
+            <div class="title">购买数量</div>
+            <div class="buy-num-xm">
+                <div class="dp cut">&#45;</div>
+                <div class="dp num"><input type="number" maxlength="3" value="1"></div>
+                <div class="dp add">&#43;</div>
+            </div>
+        </div>
+
+        <div class="buy-btn">
+            <div class="pay-btn buy"><div>立即购买</div></div>
+            <div class="pay-btn add-cart"><div>加入购物车</div></div>
+        </div>
+    </div>
+    <div class="bg"></div>
+</div>
+
+</body>
+<script type="text/javascript" src="javascripts/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/touch.js"></script>
+<script type="text/javascript" src="javascripts/fxJs.js"></script>
+</html>
+

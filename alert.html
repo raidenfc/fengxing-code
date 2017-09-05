@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>弹窗</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if(deviceWidth > 750){
+        deviceWidth = 750;
+    }
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+</script>
+</head>
+<body>
+
+
+<div class="alert-pop-inner">
+    <div class="pop-inner">
+        <!--<div class="icon ok-icon"></div>-->
+        <div class="icon error-icon"></div>
+        <span>最多可输入60个字</span>
+    </div>
+    <div class="bg"></div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="javascripts/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/touch.js"></script>
+<script type="text/javascript" src="javascripts/fxJs.js"></script>
+</html>
+

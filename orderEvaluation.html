@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>提交订单</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if(deviceWidth > 750){
+        deviceWidth = 750;
+    }
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+</script>
+</head>
+<body class="post-order">
+
+<div class="order-evaluation-main">
+
+    <div class="address-box-inner"></div>
+
+    <div class="items-list-inner"></div>
+
+    <div class="notes-inner">
+        <div class="title">订单备注：</div>
+        <div class="notes-input">
+            <input type="text" placeholder="填写备注30字以内" maxlength="30">
+        </div>
+    </div>
+
+    <div class="coupons-inner">
+        <div class="title">优惠卷：</div>
+        <div class="coupons-tips"></div>
+        <div class="sj"></div>
+    </div>
+
+    <div class="other-inner">
+        <div class="im amount">
+            <div class="title">商品金额</div>
+            <div class="g"><span class="yuan">￥</span><span class="c-price">0</span></div>
+        </div>
+        <!--<div class="im freight">-->
+            <!--<div class="title">运费</div>-->
+            <!--<div class="g"><span class="yuan">￥</span><span class="c-freight">6</span></div>-->
+        <!--</div>-->
+        <div class="im coupons hidden" data-id="">
+            <div class="title">优惠卷</div>
+            <div class="g">-<span class="yuan">￥</span><span class="c-coupons">0</span></div>
+        </div>
+        <div class="im pay">
+            <div class="title">应付</div>
+            <div class="g"><span class="yuan">￥</span><span class="z-price">0</span></div>
+        </div>
+    </div>
+
+    <div class="pay-inner">
+        <div class="weixin-pay pay-btn"><div class="ip"><s></s>微信支付</div></div>
+        <div class="zhifubao-pay pay-btn"><div class="ip"><s></s>支付宝支付</div></div>
+    </div>
+
+</div>
+
+
+<!--<div class="alert-coupons-inner">-->
+    <!--<div class="inner">-->
+        <!--<div class="close"></div>-->
+        <!--<div class="coupons-nav">-->
+            <!--<ul>-->
+                <!--<li class="use select">优惠码</li>-->
+                <!--<li class="expired">可使用</li>-->
+                <!--<li class="used">不可用</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <!--<div class="coupons-sm select">-->
+            <!--<div class="not-use-inner">-->
+                <!--<div class="coupons-code"><input type="text" placeholder="优惠卷号"></div>-->
+                <!--<div class="coupons-exchange">兑换</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="coupons-sm"></div>-->
+        <!--<div class="coupons-sm"></div>-->
+    <!--</div>-->
+    <!--<div class="bg"></div>-->
+<!--</div>-->
+
+</body>
+<script type="text/javascript" src="javascripts/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/touch.js"></script>
+<script type="text/javascript" src="javascripts/fxJs.js"></script>
+</html>
+

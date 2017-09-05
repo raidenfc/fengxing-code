@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if(deviceWidth > 750){
+        deviceWidth = 750;
+    }
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+</script>
+</head>
+<body>
+
+<div class="acc-main">
+
+    <div class="title">注册新帐号</div>
+
+    <div class="registration-inner">
+        <div class="input-style phone">
+            <input type="text" placeholder="输入手机号码">
+        </div>
+        <div class="input-style verification">
+            <input type="text" placeholder="输入验证码">
+            <div class="get-verification">获取验证码</div>
+        </div>
+    </div>
+
+    <div class="btn-inner">
+        <cite>点击注册后表示同意商城用户隐私协议和条款</cite>
+        <div class="btn-style registration-btn">立即注册</div>
+        <div class="or"><span>or</span></div>
+        <div class="btn-style qq-login"><div class="icon-qq"></div>QQ登录</div>
+    </div>
+
+</div>
+
+</body>
+<script type="text/javascript" src="javascripts/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/touch.js"></script>
+<script type="text/javascript" src="javascripts/fxJs.js"></script>
+</html>
+

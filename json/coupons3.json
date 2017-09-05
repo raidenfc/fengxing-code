@@ -1,0 +1,31 @@
+{
+  "code": 200,
+  "msg": "数据正常",
+  "data": {
+    "count_expire": 1,
+    "data_expire": [
+      {
+        "id": 1,
+        "coupon_id": 2,
+        "trade_no": 0,
+        "user_id": 1,
+        "used_time": 0,
+        "order_id": 0,
+        "is_used": 0,
+        "is_send_wechat": 0,
+        "is_send_email": 0,
+        "is_send_mobile": 0,
+        "created_at": "2016-07-07 12:12:12",
+        "updated_at": "2016-07-07 12:12:12",
+        "name": "用户优惠券",
+        "send_type": 0,
+        "can_use": 1,
+        "is_expire": 1,
+        "is_start": 1,
+        "use_start_date": "2016-07-06",
+        "use_end_date": "2016-07-06",
+        "money": "5.00"
+      }
+    ]
+  }
+}

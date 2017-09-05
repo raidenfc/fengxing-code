@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>优惠卷</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<meta content="telephone=no" name="format-detection">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<script>
+    var deviceWidth = document.documentElement.clientWidth;
+    if(deviceWidth > 750){
+        deviceWidth = 750;
+    }
+    document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+</script>
+</head>
+<body class="coupons">
+
+<div class="coupons-main">
+    <!--<div class="coupons-code-inner">-->
+        <!--<div class="dp">优惠卷与优惠码不能同时使用</div>-->
+        <!--<div class="coupons-code"><input type="text" placeholder="请输入优惠码"></div>-->
+    <!--</div>-->
+
+    <div class="coupons-nav">
+        <ul>
+            <li class="use select">待使用</li>
+            <li class="expired">已过期</li>
+            <li class="used">已使用</li>
+        </ul>
+    </div>
+
+    <div class="coupons-sm select-main"></div>
+    <div class="coupons-sm"></div>
+    <div class="coupons-sm"></div>
+</div>
+
+</body>
+<script type="text/javascript" src="javascripts/zepto.min.js"></script>
+<script type="text/javascript" src="javascripts/touch.js"></script>
+<script type="text/javascript" src="javascripts/fxJs.js"></script>
+</html>
+
